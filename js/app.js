@@ -50,6 +50,11 @@ data.appendChild(wantsBox);
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
 
+var pro2Box = document.createElement('p');
+pro2Box.id = 'pro2';
+pro2Box.innerHTML = "I'm not as creepy as I look. And if we end up together, I promise you a lifetime of free fries :)"
+profile.appendChild(pro2Box);
+
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
