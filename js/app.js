@@ -22,6 +22,11 @@ age.innerHTML = 63;
 
 //5. In the div id data section, create a div with an id of job and give it the following information: Clown and Restauranteur.
 
+var jobBox = document.createElement('div');
+jobBox.id = 'job';
+jobBox.innerHTML = 'Clown and Restauranteur';
+data.appendChild(jobBox);
+
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
 
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
